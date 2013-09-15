@@ -1,11 +1,12 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ember/excerpt/version'
+
+require 'ember_excerpt/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ember-excerpt"
-  spec.version       = Ember::Excerpt::VERSION
+  spec.version       = EmberExcerpt::VERSION
   spec.authors       = ["Darshan Sawardekar"]
   spec.email         = ["darshan@sawardekar.org"]
   spec.description   = %q{Extracts keywords from ember documentation.}

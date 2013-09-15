@@ -1,12 +1,13 @@
-# Ember::Excerpt
+# EmberExcerpt
 
-TODO: Write a gem description
+Extracts keywords like methods, classes, etc from ember documentation. This is 
+useful for creating syntax files for vim and other editors.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'ember-excerpt'
+    $ gem 'ember-excerpt'
 
 And then execute:
 
@@ -18,12 +19,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Default uses api.yml from ember's github repository.
 
-## Contributing
+    $ ember-excerpt -t <extract_type> -o <output_file>
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Or specify a path to the yml file manually with -i
+
+    $ ember-excerpt -i <doc.yml> -t <extract_type> -o <output_file>
+

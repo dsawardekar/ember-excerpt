@@ -1,5 +1,3 @@
-module Ember
-  module Excerpt
-    VERSION = "0.0.1"
-  end
+module EmberExcerpt
+  VERSION = "0.0.2"
 end

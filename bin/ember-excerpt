@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require File.expand_path('../../lib/ember_excerpt/loader', __FILE__)
+
+module EmberExcerpt
+
+  require 'ember_excerpt/cli/app'
+  app = EmberExcerpt::CLI::App.new
+  app.start(ARGV)
+
+end
