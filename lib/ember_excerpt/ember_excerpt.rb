@@ -1,7 +1,5 @@
-require "ember/excerpt/version"
+require "ember_excerpt/version"
 
-module Ember
-  module Excerpt
-    # Your code goes here...
-  end
+module EmberExcerpt
+
 end
