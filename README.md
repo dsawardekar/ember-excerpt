@@ -1,4 +1,4 @@
-# Ember::Excerpt
+# EmberExcerpt
 
 Extracts keywords like methods, classes, etc from ember documentation. This is 
 useful for creating syntax files for vim and other editors.
